@@ -1,0 +1,25 @@
+#' Supermarket sales data from Kaggle
+#'
+#' @format ## `supermarket`
+#' A data frame with 1,000 rows and 17 columns:
+#' \describe{
+#'   \item{Invoice.ID}{Computer generated sales slip invoice identification number}
+#'   \item{Branch}{Branch of supercenter (3 branches are available identified by A, B and C).}
+#'   \item{City}{Location of supercenters}
+#'   \item{Customer.type}{Type of customers, recorded by Members for customers using member card and Normal for without member card}
+#'   \item{Gender}{Gender type of customer}
+#'   \item{Product.line}{General item categorization groups}
+#'   \item{Unit.price}{Price of each product in \$}
+#'   \item{Quantity}{Number of products purchased by customer}
+#'   \item{Tax.5.}{5\% tax fee for customer buying}
+#'   \item{Total}{Total price including tax}
+#'   \item{Date}{Date of purchase}
+#'   \item{Time}{Purchase time}
+#'   \item{Payment}{Payment used by customer for purchase}
+#'   \item{cogs}{Cost of goods sold}
+#'   \item{gross.margin.percentage}{Gross margin percentage}
+#'   \item{gross.income}{Gross income}
+#'   \item{Rating}{Customer stratification rating on their overall shopping experience (On a scale of 1 to 10)}
+#' }
+#' @source <https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales>
+"supermarket"
